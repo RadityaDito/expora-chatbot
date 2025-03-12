@@ -20,8 +20,8 @@ import io
 load_dotenv()
 
 # AWS Credentials
-AWS_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY")
-AWS_SECRET_KEY = os.getenv("AWS_SECRET_KEY")
+AWS_ACCESS_KEY = os.getenv("MY_AWS_ACCESS_KEY")
+AWS_SECRET_KEY = os.getenv("MY_AWS_SECRET_KEY")
 S3_BUCKET_NAME = os.getenv("S3_BUCKET_NAME")
 S3_REGION = os.getenv("S3_REGION")
 
