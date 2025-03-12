@@ -38,7 +38,7 @@ client_bedrock = boto3.client('bedrock-runtime', region_name="ap-southeast-1",
     )
 
 #For AI
-# genai.configure(api_key="AIzaSyBxfxx0Wi52S9MvKyp0ghzcEc296EopX4A")
+# genai.configure(api_key="")
 # model = genai.GenerativeModel("gemini-1.5-pro")
 
 #Client for rekognition
